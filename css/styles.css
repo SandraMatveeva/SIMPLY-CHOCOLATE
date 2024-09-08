@@ -1,0 +1,293 @@
+/* #region Common style */
+body {
+  background: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #endregion Common style */
+
+/* #region header style */
+.page-logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+}
+
+.logo-italic {
+  font-style: italic;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #fd9222;
+}
+
+/* #endregion header style */
+
+/* #region hero style */
+
+.main-page {
+  background: #1e1823;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.btn-buy-now {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #fd9222;
+}
+
+.btn-buy-now:hover,
+.btn-buy-now:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+}
+
+.how-made-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.how-made-link:hover,
+.how-made-link:focus {
+  color: #fd9222;
+  background: #fff;
+}
+
+.scroll-down-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.scroll-down-link:hover,
+.scroll-down-link:focus {
+  color: #fd9222;
+  background: #fff;
+}
+/* #endregion hero style */
+
+/* #region about us */
+.about-us-list {
+  background: #1e1823;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.about-us-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion about us */
+
+/* #region ALL ADDS */
+.all-adds-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.accent-color-all-adds {
+  color: #fd9222;
+}
+
+.all-adds-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.milk-chocolate-foto {
+  background: #fd9222;
+}
+
+.nuts-foto {
+  background: #1e1823;
+}
+
+.item-light {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #fd9222;
+}
+
+.item-dark {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+/* #endregion ALL ADDS */
+
+/* #region hOW ITS made */
+.how-made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.accent-color-made {
+  color: #fd9222;
+}
+
+.how-made-discription {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.how-made-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  list-style-type: initial;
+}
+
+/* #endregion hOW ITS made */
+
+/* #region chocolate is loved */
+.loved-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.accent-loved {
+  color: #fd9222;
+}
+
+.loved-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.loved-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.btn-leave-review {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+/* #endregion chocolate is loved */
+
+/* #region footer style */
+.footer-page {
+  background: #1e1823;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.accent-color-footer {
+  color: #fd9222;
+}
+
+.footer-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-item:hover,
+.footer-item:focus {
+  color: #fd9222;
+}
+
+.footer-address {
+  font-style: normal;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-cont-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+/* #endregion footer style */
